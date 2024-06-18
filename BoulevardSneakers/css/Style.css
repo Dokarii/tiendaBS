@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Formulario */
+.bodyform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('..//Images/Background\ 4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.formulario h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.formulario .correo-contra {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.formulario input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.formulario a {
+    text-decoration: none;
+    color: #333;
+}
+
+.formulario input::placeholder {
+    color: #fff;
+}
+
+.formulario i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.formulario .clase-recuperar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 -10px;
+    padding: 20px;
+}
+
+.clase-recuperar label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.clase-recuperar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.clase-recuperar a:hover {
+    text-decoration: underline;
+}
+
+.formulario .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-sizing: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.formulario .clase-registro {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px 0 15px;
+}
+
+.formulario p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.formulario p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Navegacion */
+.logo_index {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+    padding-left: 5px;
+}
+
+.div_nav {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #ffff;
+    text-align: center;
+    text-align: center;
+}
+
+.div_nav {
+    box-shadow: 1px 1px 10px #ffffff;
+}
+
+
+.barra_nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+}
+
+.iniciarSesion {
+    text-align: end;
+}
+
+.list_nav {
+    text-align: center;
+    list-style: none;
+}
+
+.nav_item {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.nav_item a:active {
+    text-shadow: 1px 1px 20px #000;
+    text-decoration: none;
+}
+
+/* Barra de busqueda */
+.input {
+    border: 2px solid transparent;
+    width: 50em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    margin-top: 10px;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: solid 0.1px;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #333333;
+    box-shadow: 0px 0px 0px 7px rgba(100, 100, 100, 0.2);
+    background-color: white;
+  }
+
+  .barra_busqueda {
+    text-align: center;
+    
+  }
+
+
+/* Panel de Spam */
+.spam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background: url('..//Images/BackGroundSpam.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+.spam h1 {
+    outline: 1px solid #ffffff;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* Catalogo  */
+:root {
+    --primary-color: #000;
+    --secondary-color: #33333398;
+    --highlight-color: #646464;
+    --font-size-large: 25px;
+    --font-weight-bold: 600;
+    --catalogo-gap: 30px;
+    --catalogo-max-width: 300px;
+}
+
+.ultimos h1 {
+    text-align: center;
+    color: var(--primary-color);
+    font-style: normal;
+}
+
+.ultimos h3 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.ultimos {
+    padding-top: 100px;
+}
+
+.precio {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+}
+
+section {
+    padding-top: 30px;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--catalogo-gap);
+}
+
+.catalogo .catalogo_pr {
+    width: 100%;
+    max-width: var(--catalogo-max-width);
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px var(--highlight-color);
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo_pr {
+    border-radius: 10px;
+}
+
+.catalogo .catalogo_pr .catalogo_pr__ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo .catalogo_pr .catalogo_pr__ img {
+    margin-top: 20px;
+    width: auto;
+    max-width: 100%;
+    height: 200px;
+}
+
+.catalogo .catalogo_pr .catalogo_pr__ .nom_producto {
+    text-align: center;
+    border-bottom: 2px dashed var(--secondary-color);
+    font-weight: bold;
+    width: 100%;
+}
+
+.catalogo .catalogo_pr .catalogo_pr__ .precio {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.catalogo_pr:hover {
+    cursor: pointer;
+}
+
+
+.catalogo .catalogo_pr .catalogo_pr__ .nom_producto {
+    text-align: center;
+    border-bottom: 2px dashed var(--secondary-color);
+    font-weight: bold;
+    width: 100%;
+}
+
+.catalogo .catalogo_pr .catalogo_pr__ .precio {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.catalogo_pr:hover {
+    cursor: pointer;
+    /* transform: scale(1.05); */
+}
+
+
+/* Boton */
+.boton_compra {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-weight: 200px;
+}
+
+.boton_compra:hover {
+    transform: scale(1.05);
+    animation: hoverEffect 0.3s forwards;
+}
+  
+
+/* Footer */
+#footer{
+ background-color: #383838;
+}
+
+.footer, footer {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: white; 
+    font-size: small;
+}
+
+#tyc {
+    text-align: justify;
+    margin: 50px;
+}
+
+#tyc h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+#tyc p {
+    margin-bottom: 50px;
+}
+
+#tyc h3 {
+    margin-bottom: 10px;
+}
+
+#tyc_ {
+    color: #fff;
+    text-decoration: dashed;
+}
+
+#tyc_::before {
+    content: " | ";
+}
+
+#tyc_::after {
+    content: " | ";
+}
+
+#tyc__ {
+    color: #fff;
+    text-decoration: dashed;
+}
+
+#tyc__::after {
+    content: " |";
+}
+
+/* Opiniones */
+#container{
+    text-align: center;
+}
+
+#ContenedorOpiniones {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.contPlace_ {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#contPlace__ {
+    height: 100px;
+    width: inherit;
+}
+.op--btn {
+    width: inherit;
+}
+
+#ContenedorOpiniones {
+    text-align: center;
+    margin-left: 38%;
+}
+
+.p-op {
+    margin: 50px;
+}
+
+.p-op p {
+    margin-top: 20px;
+    text-align: justify;
+}
